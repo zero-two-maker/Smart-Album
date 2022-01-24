@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "本地"
+			}
+		}
+	    ,{
+            "path" : "pages/me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/beautify/beautify",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/classification/classification",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#808080",
+		"backgroundColor":"white",
+		"borderStyle":"white",
+		"selectedColor":"#007AFF",
+		"iconWidth":"20px",
+		"spacing":"7px",
+		"fontSize":"10px",
+		"blurEffect":"light",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"text":"照片",
+			"iconPath":"static/image0.png",
+			"selectedIconPath":"static/image.png"
+		},{
+			"pagePath":"pages/classification/classification",
+			"text":"分类",
+			"iconPath":"static/columns0.png",
+			"selectedIconPath":"static/columns.png"
+		},{
+			"pagePath":"pages/beautify/beautify",
+			"text":"美化",
+			"iconPath":"static/stars0.png",
+			"selectedIconPath":"static/stars.png"
+		},{
+			"pagePath":"pages/me/me",
+			"text":"我的",
+			"iconPath":"static/person-square0.png",
+			"selectedIconPath":"static/person-square.png"
+		}]
+	}
+}
