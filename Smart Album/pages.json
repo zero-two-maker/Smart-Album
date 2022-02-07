@@ -35,6 +35,7 @@
         }
     ],
 	"globalStyle": {
+		"navigationStyle": "custom",
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
@@ -48,27 +49,27 @@
 		"iconWidth":"20px",
 		"spacing":"7px",
 		"fontSize":"10px",
-		"blurEffect":"light",
+		//"blurEffect":"light",
 		"list":[{
 			"pagePath":"pages/index/index",
 			"text":"照片",
-			"iconPath":"static/image0.png",
-			"selectedIconPath":"static/image.png"
+			"iconPath":"static/icon/image0.png",
+			"selectedIconPath":"static/icon/image.png"
 		},{
 			"pagePath":"pages/classification/classification",
 			"text":"分类",
-			"iconPath":"static/columns0.png",
-			"selectedIconPath":"static/columns.png"
+			"iconPath":"static/icon/columns0.png",
+			"selectedIconPath":"static/icon/columns.png"
 		},{
 			"pagePath":"pages/beautify/beautify",
 			"text":"美化",
-			"iconPath":"static/stars0.png",
-			"selectedIconPath":"static/stars.png"
+			"iconPath":"static/icon/stars0.png",
+			"selectedIconPath":"static/icon/stars.png"
 		},{
 			"pagePath":"pages/me/me",
 			"text":"我的",
-			"iconPath":"static/person-square0.png",
-			"selectedIconPath":"static/person-square.png"
+			"iconPath":"static/icon/person-square0.png",
+			"selectedIconPath":"static/icon/person-square.png"
 		}]
 	}
 }
